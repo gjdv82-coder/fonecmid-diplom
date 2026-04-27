@@ -226,6 +226,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="1b044ac3-40db-4611-a34e-d846f12b6828">
+    <name>ФормаВыбораДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора договора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="49dbfd8f-3a71-4bc5-973a-d14dbe25ddf4">
     <producedTypes>
       <objectType typeId="27131814-01e1-4fa6-a340-10f24fd86597" valueTypeId="43e5b288-08f9-41c4-b92b-ba7e0de28945"/>
@@ -410,4 +419,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="3d6c2a3a-0db9-4f2b-a1a1-f8ab3e8f8c07">
+    <name>ПФ_MXL_АктОказаныхУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказаных услуг</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
