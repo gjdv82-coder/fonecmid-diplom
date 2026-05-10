@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f46fa7d3-2556-416c-8fb3-080ed4a9b76b">
+  <producedTypes>
+    <objectType typeId="7c1b8bc6-8ee4-4448-a412-4aa08e6842c6" valueTypeId="d484a8c0-bc64-454e-b60a-543550486635"/>
+    <refType typeId="3c78574a-5c98-41a2-892f-4466a5784adc" valueTypeId="2b305159-fa7e-4632-bc68-36ceba02e5dc"/>
+    <selectionType typeId="abf0b72d-a151-481c-968e-776acd95c445" valueTypeId="c37586bd-6b84-4c40-b931-0af99ba10382"/>
+    <listType typeId="857874ad-7472-447a-819a-3b7884a884ac" valueTypeId="135fa318-37e8-4c4d-bd3c-0ca3ed25ba55"/>
+    <managerType typeId="d6ad41df-30ac-4a9e-ad02-8841d4230e0d" valueTypeId="2da52284-8b46-49d4-b525-b45edf24db98"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление телеграм-боту</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e5ba3dfc-fe41-418a-bf55-630dd3678a5a">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
